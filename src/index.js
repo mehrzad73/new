@@ -9,6 +9,7 @@ import CityTourMain from './components/Page/CityTour/CityTourMain';
 import AboutUsMain from './components/Page/AboutUs/AboutUsMain';
 import HomeMain from './components/Page/Home/HomeMain';
 import Agent from './components/Page/Agent/AgentMain';
+import Gallery from './components/Page/Gallery/Gallery';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/citytour*" component={CityTourMain} />
       <Route path="/aboutus*" component={AboutUsMain} />
       <Route path="/agent*" component={Agent} />
+      <Route path="/gallery" component={Gallery} />
       
       <Route path="*" component="" />
 
